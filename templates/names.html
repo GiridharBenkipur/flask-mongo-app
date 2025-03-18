@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Names List</title>
+</head>
+<body>
+    <h1>Stored Names</h1>
+    <ul>
+        {% for name in names %}
+            <li>{{ name['name'] }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="/">Go Back</a>
+</body>
+</html>
